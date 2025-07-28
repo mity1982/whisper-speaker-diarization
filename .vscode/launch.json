@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Transcribe Audio",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/transcribe_audio.py",
+            "console": "integratedTerminal",
+            "args": ["/Users/evgenialapteva/Desktop/WORK INKANTIKO/DAY 1 group_5.wav"],
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "stopOnEntry": false,
+            "justMyCode": true
+        },
+        {
+            "name": "Debug Transcribe Audio (Interactive)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/transcribe_audio.py",
+            "console": "integratedTerminal",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "stopOnEntry": false,
+            "justMyCode": true
+        }
+    ]
+}
